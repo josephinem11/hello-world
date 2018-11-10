@@ -1,11 +1,11 @@
 *{
-    padding:0;
-    margin 0;
+    padding:0; font-family: 'Inconsolata', monospace;
+    margin 0; font-family: 'Inconsolata', monospace;
 }
 
 body{
     overflow-x;hidden;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
     text-rendering: optimizeLegibility !important;
 }
 
@@ -15,13 +15,14 @@ a{
 }
 
 h1,h2,h4{
-    font-family: 'PT Sans Narrow', Arial,sans-serif
+    font-family: 'Inconsolata', monospace; bold 700
     text-transform:uppercase;
     font-weight:500;
     padding-top: 10px
 }
 
 p{
+    font-family: 'Inconsolata', monospace;
     font-size:15px;
     line-height: 25px;
 }
@@ -41,7 +42,7 @@ p{
 /*NAVIGATION*/
 .navbar {
     text-transform: uppercase;
-    font-family: 'PT Sans Narrow', Arial, Sans-serif;
+    font-family: 'Cousine', monospace;
     font-weight: 500;
 }
 
